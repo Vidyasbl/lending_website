@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "Epilogue-Black";
+    src: url(../../fonts/Epilogue-Black.ttf) format("opentype");
+  }
+  @font-face {
+    font-family: "Epilogue-Bold";
+    src: url(../../fonts/Epilogue-Bold.ttf) format("opentype");
+  }
+  @font-face {
+    font-family: "Epilogue-ExtraBold";
+    src: url(../../fonts/Epilogue-ExtraBold.ttf) format("opentype");
+  }
+.home-slider .owl-carousel .owl-nav button.owl-next span:after{width:0;}
+.slideshow .owl-carousel.owl-drag .owl-item{background:#fff}
+.slideshow{position:relative;width:100%;height:100%;padding-bottom:17px;overflow:hidden;z-index:1}
+.slideshow .item .cover{padding:0;position:absolute;width:500px;height:100%;top:0;left:60%;display:flex;align-items:center}
+.slideshow .owl-carousel .owl-stage-outer{overflow:inherit}
+.slideshow .owl-carousel .owl-nav {  display: none;}
+.slideshow .owl-item.active {-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both;animation-name:fadeInDown;animation-delay:.3s}
+.slideshow .owl-carousel .owl-nav{border:0;opacity:1;position:absolute;padding:0;top:40%;line-height:0;width:100%}
+.home-slider .slideshow .banner_header{ font-family: "Epilogue-ExtraBold";font-size: 60px;line-height: 70px;    margin-bottom: 10px;}
+.home-slider .slideshow .banner_header span.teal{color:#50D387;}
+.home-slider .slideshow .banner_header span.light-blue{color:#5AE2E2;}
+.home-slider .owl-carousel .owl-item img.payment-arrow{     width: 51px;height: 51px;    margin: -45px 0 0 -20px;    display: inline-block;}
+.home-slider .owl-carousel .owl-item img.payment-arrow.teal-arrow{ margin: -66px 0 0 -20px;}
+.home-slider .owl-carousel .owl-dots {position: relative;right: inherit;    margin-top: 0;    bottom: 35px; text-align: center;}
+.home-slider .owl-carousel .owl-dots .owl-dot span {background: #fff;    padding: 6px!important;    background: #fff;opacity: 0.7;border: 1px solid #fff;    border-radius: 20px;}
+.home-slider .owl-carousel .owl-dots .owl-dot.active span{background: #50D387;opacity: 1;}
+.slideshow .item .cover.akbanner_text { width: 600px;left:19%;}
+.akbanner_text .banner_header {  font-size: 60px;font-family: 'Epilogue-Black', sans-serif;color: #0E3224;  line-height: 70px;  margin-bottom: 20px;}
+.akbanner_text .banner_header  p {
+  color: #0E3224;
+  font-size: 24px;
+  line-height: 32px;
+  font-family: 'Epilogue-Light', sans-serif;
+  padding-top: 10px;
+}
+.akbanner_text .btn{height: unset;}
+@media screen and (max-width:1460px){.slideshow .item .cover.akbanner_text {left:11%;}
+}
+@media screen and (max-width:1200px){.slideshow .item .cover {  width: 45%;left: 55%;}
+.home-slider .slideshow .banner_header{font-size: 52px;line-height: 60px;}
+}
+@media screen and (max-width:1024px){.slideshow .item .cover.akbanner_text {left:8%; }}
+@media screen and (max-width:768px){  .slideshow .item img{width:100%;height:360px;object-fit:cover}.home-slider .slideshow .banner_header{     font-size: 26px;line-height: 32px;}
+.btn-primary-darkgreen{padding:11px 23px;}.home-slider .owl-carousel .owl-item img.payment-arrow {width: 32px;  height: 32px;  margin: -30px 0 0 -10px;}.home-slider .owl-carousel .owl-item img.payment-arrow.teal-arrow{ margin: -36px 0 0 -10px;}
+.slideshow .item .cover.akbanner_text {	left:8%; width: 265px; top: -15%;} .home-slider .slideshow .akbanner_text .banner_header {  font-size: 24px;  line-height: 32px;} .slideshow .item .cover.akbanner_text p br{display:none;}.akbanner_text .banner_header p {font-size: 14px;line-height: 20px;}
+}
+@media screen and (max-width:520px){
+.home-slider .slideshow .banner_header {font-size: 24px;  line-height: 30px;}.slideshow .item .cover {width: 40%;left: 60%;}
+.home-slider .owl-carousel .owl-item img.payment-arrow {width: 26px;  height: 26px;  margin: -15px 0 0 -10px;}
+.home-slider .owl-carousel .owl-item img.payment-arrow.teal-arrow{ margin: -30px 0 0 -10px;}
+.btn-primary-darkgreen{
+  font-size: 12px;
+  padding: 11px 23px;
+  height: 38px;
+}
+}
+@media screen and (max-width:420px){
+.slideshow .item .cover { width: 50%;left: 50%;} 
+.home-slider .slideshow .banner_header{     font-size: 20px;line-height: 24px;}
+.home-slider .slideshow .akbanner_text .banner_header {	left:6%; width:220px;}}
+
+@media not all and (min-resolution:.001dpcm) { @media screen and (max-width:520px) {
+.slideshow-content .btn{margin-top:-45px}
+}
+}
